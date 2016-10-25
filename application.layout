@@ -51,7 +51,7 @@
     <script src="http://mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('http://silverspring.mallmaverick.com/api/v3/silverpsring/all.json');
+        setEndPoint('http://silverspring.mallmaverick.com/api/v3/silverspring/all.json');
     </script>
 </head>
 
