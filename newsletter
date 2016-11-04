@@ -26,7 +26,7 @@ Sign up to get interesting news and updates delivered to your inbox.
                     <div class="col-md-12">
                         <label class="newsletter_label">
                             <input id="newsletter_agree" type="checkbox" />
-                            I agree to receive newsletters from Virginia Gateway
+                            I agree to receive newsletters from Downtown Silver Spring.
                         </label>
                         <br />
                         <button type="submit" class="animated_btn main_btn">Subscribe</button>
