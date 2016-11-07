@@ -298,6 +298,12 @@ body{
     border: solid 0px #fff;
 }
 
+p.featured_item {
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
+
 .promotion_item figure {
     height: 230px;
     position: relative;
