@@ -8,7 +8,7 @@ body{
     color:#424242;
     font-family:'Open Sans';
     background-color: #63bae5;
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/580fbd3d6e6f645ce3000000/image/png/1478714860000/dt-silverpring.png);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/580fbd3d6e6f645ce3000000/image/png/1478716250000/dt-silverpring-pattern.png);
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -1042,11 +1042,11 @@ p.featured_item {
         width:33px;
         margin-top:20px;
     }
-  
+
     .header{
         padding: 15px;
          background-color: #63bae5;
-                background-image: url(http://assets.codecloudapp.com/sites/580fbd3d6e6f645ce3000000/image/png/1478714860000/dt-silverpring.png);
+                background-image: url(http://assets.codecloudapp.com/sites/580fbd3d6e6f645ce3000000/image/png/1478716250000/dt-silverpring-pattern.png);
         
     }
     
