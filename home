@@ -11,7 +11,6 @@
 </div>
 
 <div class="show_phone mobile_banner">
-    <!--<img src="//codecloud.cdn.speedyrails.net/sites/580fbd3d6e6f645ce3000000/image/png/1478714650000/dt-silverpring.png" class="" alt="banner">-->
     <div class="flexslider">
         <ul class="slides" id="mobile_banner">
             <script id="mobile_banner_template" type="x-tmpl-mustache/text">
