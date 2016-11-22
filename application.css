@@ -1301,7 +1301,6 @@ p.featured_item {
         border-top: 1px solid #000000;
         border-bottom: 1px solid #000000;
         padding: 15px 0;
-        text-transform: uppercase;
     }
     .feature_item {
         // padding-left: 10px;
