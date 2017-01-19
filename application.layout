@@ -52,7 +52,7 @@
     <script src="http://mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('http://silverspring.mallmaverick.com/api/v3/silverspring/all.json');
+        setEndPoint('https://twinpines.mallmaverickstaging.com/api/v3/twinpines/all.json');
     </script>
 </head>
 
