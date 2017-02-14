@@ -1135,7 +1135,9 @@ p.featured_item {
             padding: 15px 0px;
         }
     }
-    
+    .ad_banner_row {
+        margin-bottom: 20px;
+    }
     .stores_main_heading{
         color: #DCBB8D;
     }
