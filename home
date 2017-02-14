@@ -85,9 +85,10 @@
                     <li>
                         {{#url}}
                         <a href="{{url}}" target="_blank">
+                        {{/url}}
                             <img src="{{photo_url_abs}}" class="{{gif_class}}"/>
                         </a>
-                        {{/url}}
+                        
                     </li>
                 </script>
             </ul>
