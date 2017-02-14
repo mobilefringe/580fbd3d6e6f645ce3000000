@@ -1330,7 +1330,9 @@ p.featured_item {
         width: 33.33333333%;
         overflow:hidden;
     }
-    
+    .ad_banner_row {
+        padding-bottom: 40px;    
+    }
     .home_promotions{
         
     }
