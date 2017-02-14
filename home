@@ -77,6 +77,32 @@
     <!--    <div class="clearfix"></div>-->
     <!--</div>-->
 </div>
+<div class="content_container main_container">
+    <div class="ad_banner_row">
+        <div class="flexslider hidden_phone">
+            <ul class="slides" id="ad_banner_container">
+                <script id="ad_banner_template" type="x-tmpl-mustache/text">
+                    <li>
+                        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                            <img src="{{photo_url_abs}}" class="{{gif_class}}"/>
+                        </a>
+                    </li>
+                </script>
+            </ul>
+        </div>
+        <div class="flexslider show_phone">
+            <ul class="slides" id="mobile_ad_banner_container">
+                <script id="mobile_ad_banner_template" type="x-tmpl-mustache/text">
+                    <li>
+                        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                            <img src="{{photo_url_abs}}" class="{{gif_class}}"/>
+                        </a>
+                    </li>
+                </script>
+            </ul>
+        </div>
+    </div>
+</div>
 <div class="content_container position_relative main_container">
     <h2 class="heading text-center show_phone">VISIT US</h2>
     <div class="overlay" onclick="style.pointerEvents='none'"></div>
@@ -109,6 +135,14 @@
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
             }
+            
+            var ad_banner = getRepoDetailsByName('Ad Banner Desktop').images;
+            renderGeneral("#ad_banner_container", "#ad_banner_template", ad_banner);
+            
+            var mobile_ad_banner = getRepoDetailsByName('Ad Banner Mobile').images;
+            console.log(mobile_ad_banner);
+            renderGeneral("#mobile_ad_banner_container", "#mobile_ad_banner_template", mobile_ad_banner);
+            
             show_content();
             
             $('.flexslider').flexslider({
