@@ -77,7 +77,7 @@
     <!--    <div class="clearfix"></div>-->
     <!--</div>-->
 </div>
-<div class="content_container main_container">
+<div class="content_container main_container hidden_now" id="ad_banner">
     <div class="ad_banner_row">
         <div class="flexslider hidden_phone">
             <ul class="slides" id="ad_banner_container">
@@ -86,9 +86,10 @@
                         {{#url}}
                         <a href="{{url}}" target="_blank">
                         {{/url}}
+                            {{#photo_url_abs}}
                             <img src="{{photo_url_abs}}"/>
+                            {{/photo_url_abs}}
                         </a>
-                        
                     </li>
                 </script>
             </ul>
@@ -100,7 +101,9 @@
                         {{#url}}
                         <a href="{{url}}" target="_blank">
                         {{/url}}
+                            {{#photo_url_abs}}
                             <img src="{{photo_url_abs}}"/>
+                            {{/photo_url_abs}}
                         </a>
                     </li>
                 </script>
@@ -142,9 +145,20 @@
             }
             
             var ad_banner = getRepoDetailsByName('Ad Banner Desktop').images;
-            renderGeneral("#ad_banner_container", "#ad_banner_template", ad_banner);
+            if(ad_banner.length < 1) {
+                $("#ad_banner").hide();
+            } else {
+                renderGeneral("#ad_banner_container", "#ad_banner_template", ad_banner); 
+                $("#ad_banner").show();
+            }
+            
             var mobile_ad_banner = getRepoDetailsByName('Ad Banner Mobile').images;
-            renderGeneral("#mobile_ad_banner_container", "#mobile_ad_banner_template", mobile_ad_banner);
+            if(mobile_ad_banner.length < 1) {
+                $("#ad_banner").hide();
+            } else {
+                renderGeneral("#mobile_ad_banner_container", "#mobile_ad_banner_template", mobile_ad_banner); 
+                $("#ad_banner").show();
+            }
             
             show_content();
             
