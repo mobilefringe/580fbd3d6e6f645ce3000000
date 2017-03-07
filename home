@@ -77,40 +77,40 @@
     <!--    <div class="clearfix"></div>-->
     <!--</div>-->
 </div>
-<div class="content_container main_container hidden_now" id="ad_banner">
-    <div class="ad_banner_row">
-        <div class="flexslider hidden_phone">
-            <ul class="slides" id="ad_banner_container">
-                <script id="ad_banner_template" type="x-tmpl-mustache/text">
-                    <li>
-                        {{#url}}
-                        <a href="{{url}}" target="_blank">
-                        {{/url}}
-                            {{#photo_url_abs}}
-                            <img src="{{photo_url_abs}}"/>
-                            {{/photo_url_abs}}
-                        </a>
-                    </li>
-                </script>
-            </ul>
-        </div>
-        <div class="flexslider show_phone">
-            <ul class="slides" id="mobile_ad_banner_container">
-                <script id="mobile_ad_banner_template" type="x-tmpl-mustache/text">
-                    <li>
-                        {{#url}}
-                        <a href="{{url}}" target="_blank">
-                        {{/url}}
-                            {{#photo_url_abs}}
-                            <img src="{{photo_url_abs}}"/>
-                            {{/photo_url_abs}}
-                        </a>
-                    </li>
-                </script>
-            </ul>
-        </div>
-    </div>
-</div>
+<!--<div class="content_container main_container hidden_now" id="ad_banner">-->
+<!--    <div class="ad_banner_row">-->
+<!--        <div class="flexslider hidden_phone">-->
+<!--            <ul class="slides" id="ad_banner_container">-->
+<!--                <script id="ad_banner_template" type="x-tmpl-mustache/text">-->
+<!--                    <li>-->
+<!--                        {{#url}}-->
+<!--                        <a href="{{url}}" target="_blank">-->
+<!--                        {{/url}}-->
+<!--                            {{#photo_url_abs}}-->
+<!--                            <img src="{{photo_url_abs}}"/>-->
+<!--                            {{/photo_url_abs}}-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                </script>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div class="flexslider show_phone">-->
+<!--            <ul class="slides" id="mobile_ad_banner_container">-->
+<!--                <script id="mobile_ad_banner_template" type="x-tmpl-mustache/text">-->
+<!--                    <li>-->
+<!--                        {{#url}}-->
+<!--                        <a href="{{url}}" target="_blank">-->
+<!--                        {{/url}}-->
+<!--                            {{#photo_url_abs}}-->
+<!--                            <img src="{{photo_url_abs}}"/>-->
+<!--                            {{/photo_url_abs}}-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                </script>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 <div class="content_container position_relative main_container">
     <h2 class="heading text-center show_phone">VISIT US</h2>
     <div class="overlay" onclick="style.pointerEvents='none'"></div>
