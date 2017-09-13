@@ -187,10 +187,16 @@ function renderStoreList(container, template, collection, starter, breaker){
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url);    
         }
-            
-        //var categories = getStoreCategories();
+        
+        if(val.categories != null){
+            try {
+                val.cat_list = val.categories.join(',');
+            } catch(err) {
+                console.log(err);
+            }
+        }
+        
         var current_initial = val.name[0];
-        val.cat_list = val.categories.join(',')
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.initial = "";
             val.show = "display:none;";
@@ -202,7 +208,7 @@ function renderStoreList(container, template, collection, starter, breaker){
         
         if (val.promotions != null){
             val.promotion_exist = "display:inline-block";
-        } else{ 
+        } else { 
             val.promotion_exist = "display:none";
         }
         
