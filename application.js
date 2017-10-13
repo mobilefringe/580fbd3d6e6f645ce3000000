@@ -74,9 +74,10 @@ function renderPromotions(container, template, collection){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             val.image_url = store_details.store_front_url_abs;
-            val.cat_list = store_details.categories.join(',');
-        }
-        else{
+            if(store_details.categories != null){
+                val.cat_list = store_details.categories.join(',');
+            }
+        } else {
             val.store_name = site_json.mall_name;
             val.image_url = site_json.default_image;
         }
@@ -87,8 +88,7 @@ function renderPromotions(container, template, collection){
         
         if(val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
-        }
-        else{
+        } else {
             val.description_short = val.description
         }
         
@@ -98,8 +98,7 @@ function renderPromotions(container, template, collection){
     
         if (start.format("DMY") == end.format("DMY")){
             val.dates = start.format("MMM DD")
-        }
-        else{
+        } else {
             val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
         }
         
