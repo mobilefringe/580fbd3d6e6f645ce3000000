@@ -740,6 +740,10 @@ p.featured_item {
     font-size: 16px;
 }
 
+.about_container a {
+    color: #0072c1;
+}
+
 .property_right{
     padding: 15px !important;
     padding-bottom: 0px;
