@@ -276,7 +276,7 @@ body{
 
 .flex-control-paging li a{
     color: transparent;
-    background-color: red;
+    background-color: #fff;
 }
 
 .flex-control-paging li a.flex-active {
