@@ -1402,7 +1402,7 @@ p.featured_item {
         font-size:16px;
     }
     .active_cat{
-        color: #DCBB8D;
+        color: #9a6c2c;
         &:hover, &:focus{
             color: #DCBB8D;;
         }
