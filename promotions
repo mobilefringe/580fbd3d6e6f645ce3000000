@@ -57,7 +57,7 @@
             renderGeneral('#mobile_cat_list', '#category_template2', category_list);
             $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores()
-            // console.log(categories)
+            console.log(categories)
             
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos);
