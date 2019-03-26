@@ -275,7 +275,7 @@ body{
 }
 
 .flex-control-paging li a{
-    color: red;
+    color: transparent;
 }
 
 .flex-direction-nav a{
