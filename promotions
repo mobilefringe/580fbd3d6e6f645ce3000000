@@ -65,6 +65,7 @@
                 $('#no_promos').show();
                 $('#promo_categories').hide();
             }
+            console.log(published_promos)
             show_content();
         }
         
