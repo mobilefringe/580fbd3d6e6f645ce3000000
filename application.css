@@ -270,7 +270,7 @@ body{
 .flex-control-nav {
     bottom: 13px;
     text-align: right;
-    color: red;
+    color: transparent;
     padding-right: 15px;
 }
 
