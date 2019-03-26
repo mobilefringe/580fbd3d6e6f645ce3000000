@@ -639,14 +639,14 @@ p.featured_item {
 .promo_main_header{
     font-weight:bold;
     font-size: 22px;
-    color: #9a6c2c;
+    color: #DCBB8D;
     padding-bottom:20px;
     margin-bottom: 20px;
     padding-top:20px;
     margin-top:0;
     border-bottom: 1px solid #000;
     a{
-        color: #9a6c2c;
+        color: #DCBB8D;
     }
 }
 
@@ -677,7 +677,7 @@ p.featured_item {
 .promo_dates{
     font-weight:lighter;
     font-size: 16px;
-    color: #db3551;
+    color: #FF3355;
 }
 
 .promo_store{
@@ -693,7 +693,7 @@ p.featured_item {
 .read_more{
     font-weight:lighter;
     font-size: 16px;
-    color: #0075c7;
+    color: #4A90E2;
     display: inline-block;
     margin-top: 10px;
     text-decoration: underline;
@@ -735,7 +735,7 @@ p.featured_item {
 }
 
 .contact_container a, .property_right a, .about_container a{
-    color: #4A90E2;
+    color: #0075c7;
     text-decoration: underline; 
     font-size: 16px;
 }
@@ -810,7 +810,7 @@ p.featured_item {
     text-transform: uppercase;
     font-weight:bold;
     font-size: 22px;
-    color: #9a6c2c;
+    color: #DCBB8D;
     margin-bottom:25px;
     padding-bottom:10px;
     border-bottom:1px solid #000;
@@ -1023,7 +1023,7 @@ p.featured_item {
     
     .promo_main_header select{
         margin-top:10px;
-        color: #9a6c2c;   
+        color: #DCBB8D;   
     }
     .mobile_padding{
         padding-left:10px;
@@ -1144,7 +1144,7 @@ p.featured_item {
         margin-bottom: 20px;
     }
     .stores_main_heading{
-        color: #9a6c2c;
+        color: #DCBB8D;
     }
     
     .stores_main_desc{
@@ -1162,7 +1162,7 @@ p.featured_item {
     .mobile_dd{
         background: #F1F1F1;
         font-size: 20px;
-        color: #9a6c2c;
+        color: #DCBB8D;
         letter-spacing: 1.5px;
         text-align:center;
         width:100%;
@@ -1175,14 +1175,14 @@ p.featured_item {
         height:39px;
         margin-bottom:10px;
         background: #F1F1F1;
-        color: #9a6c2c;
+        color: #DCBB8D;
         &::focus{
             outline:none;
         }
     }
     
     .category_header{
-        color: #9a6c2c;
+        color: #DCBB8D;
         font-size:20px;
         text-transform: uppercase;
         text-align:center;
@@ -1402,9 +1402,9 @@ p.featured_item {
         font-size:16px;
     }
     .active_cat{
-        color: #9a6c2c;
+        color: #DCBB8D;
         &:hover, &:focus{
-            color: #9a6c2c;
+            color: #DCBB8D;;
         }
     }
     .alpha_list{
