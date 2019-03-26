@@ -1175,7 +1175,7 @@ p.featured_item {
         height:39px;
         margin-bottom:10px;
         background: #F1F1F1;
-        color: #DCBB8D;
+        color: #9a6c2c;
         &::focus{
             outline:none;
         }
