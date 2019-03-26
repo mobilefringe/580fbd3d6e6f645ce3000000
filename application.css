@@ -279,7 +279,7 @@ body{
     background-color: red;
 }
 
-.flex-control-paging li .flex-active {
+.flex-active {
     background-color: rgb(42, 178, 229);
 }
 
