@@ -279,6 +279,10 @@ body{
     background-color: red;
 }
 
+.flex-control-paging li .flex-active {
+    background-color: rgb(42, 178, 229);
+}
+
 .flex-direction-nav a{
     width:28px;
     height:28px;
