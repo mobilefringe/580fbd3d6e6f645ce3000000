@@ -1404,7 +1404,7 @@ p.featured_item {
     .active_cat{
         color: #9a6c2c;
         &:hover, &:focus{
-            color: #DCBB8D;;
+            color: #9a6c2c;
         }
     }
     .alpha_list{
